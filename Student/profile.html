@@ -4,42 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Profile</title>
+  <link rel="stylesheet" href="student_profile.css">
 </head>
 <body>
-  
-  <h2>Student Profile</h2>
 
- <table>
-  <tr>
-    <td><img src="https://shorturl.at/STGCB" height="157" width="157"></td>
-    <td><p>This is Student space.</p></td>
-  </tr>
-  <tr><td>
-    <ul>
-      <li><a href="view_courses.html">View Courses</a></li>
-      <li><a href="view_report.html">View Report</a></li>
-      <li><a href="view_results.html">View Results</a></li>
-    </ul>
-  
-  </td>
-  </tr>
- </table>
- <hr>
- <h2>Student Details</h2>
- <table border="1">
-<tr>
-  <td><b>Name</b></td>
-  <td>Sahithi</td>
-  
-</tr>
-<tr><td><b>Email</b></td>
-  <td>sahithi@gmail.com</td>
-</tr>
-<tr>
-  <td><b>Roll no</b>.</td>
-  <td>2400030610</td>
-</tr>
- </table>
+  <div class="container">
+    <h2 class="page-title">Student Profile</h2>
+
+    <div class="profile-card">
+      <div class="profile-header">
+        <img src="https://shorturl.at/STGCB" alt="Student Photo" class="profile-pic">
+        
+      </div>
+
+      <ul class="profile-links">
+        <li><a href="view_courses.html">📚 View Courses</a></li>
+        <li><a href="view_report.html">📄 View Report</a></li>
+        <li><a href="view_results.html">📊 View Results</a></li>
+      </ul>
+    </div>
+
+    <hr class="divider">
+
+    <h2 class="section-title">Student Details</h2>
+    <table class="details-table">
+      <tr>
+        <td><b>Name</b></td>
+        <td>Sahithi</td>
+      </tr>
+      <tr>
+        <td><b>Email</b></td>
+        <td>sahithi@gmail.com</td>
+      </tr>
+      <tr>
+        <td><b>Roll No.</b></td>
+        <td>2400030610</td>
+      </tr>
+    </table>
+  </div>
 
 </body>
 </html>

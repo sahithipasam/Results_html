@@ -4,15 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Post Marks</title>
+  <link rel="stylesheet" href="post_marks.css">
 </head>
 <body>
-  <center>
-    <h2>
-      Post The Marks Here
-    </h2>
-  </center>
-  <h2>Student Marks</h2>
-<p>View and manage subject-wise marks for each student. This section allows teachers to enter, edit, or review the marks obtained in various assessments.</p>
+
+  <div class="container">
+    <h2>Post Marks</h2>
+    <p>Enter student marks for a specific course below:</p>
+
+    <form action="#" method="post" class="form-card">
+      <label for="course">Select Course:</label>
+      <select id="course" name="course" required>
+        <option value="">Select</option>
+        <option value="java">Java Programming</option>
+        <option value="python">Python for Data Science</option>
+        <option value="dbms">Database Management Systems</option>
+      </select>
+
+      <label for="student-id">Student ID:</label>
+      <input type="text" id="student-id" name="student-id" placeholder="Enter Student ID" required>
+
+      <label for="marks">Marks Obtained:</label>
+      <input type="number" id="marks" name="marks" placeholder="Enter marks" min="0" max="100" required>
+
+      <button type="submit">Submit Marks</button>
+    </form>
+  </div>
 
 </body>
 </html>

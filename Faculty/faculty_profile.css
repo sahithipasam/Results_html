@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5F0; /* soft background */
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.profile-card {
+  background-color: #FFBC9A; /* card background */
+  width: 280px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 15px;
+}
+
+.profile-links {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-links li {
+  margin: 10px 0;
+}
+
+.profile-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-links a:hover {
+  color: #fff;
+}
+
+.details-title {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+.details-table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 50%;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.details-table th {
+  background-color: #FFBC9A;
+  padding: 12px;
+  text-align: left;
+}
+
+.details-table td {
+  padding: 12px;
+}
+
+.details-table a {
+  color: #333;
+  text-decoration: none;
+}
+
+.details-table a:hover {
+  text-decoration: underline;
+}

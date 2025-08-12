@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Management</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Management</title>
+  <link rel="stylesheet" href="user_mgmt.css"/>
 </head>
 <body>
-  <center>
-    <h1>User Management</h1>
-  </center>
+  <div class="container">
+    <h1 class="page-title">Team Management</h1>
+    
+    <div class="card">
+      <div class="form-section">
+        <h2>User Registration</h2>
+        <form>
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <select required>
+            <option value="" disabled selected>Select Role</option>
+            <option value="Admin">Admin</option>
+            <option value="Developer">Developer</option>
+            <option value="Tester">Tester</option>
+          </select>
+          <input type="password" placeholder="Password" required />
+          <button type="submit">Register User</button>
+        </form>
+      </div>
+
+      <div class="user-list">
+        <h2>Registered Users</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Full Name</th>
+              <th>Email</th>
+              <th>Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Harshita</td>
+              <td>harshi@gmail.com</td>
+              <td>Admin</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Hansi</td>
+              <td>hansi@gmail.com</td>
+              <td>Developer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

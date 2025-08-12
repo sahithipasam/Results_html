@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: #edece8;
+  background:  #F8F3F1;
   font-family: Arial, sans-serif;
 
 }
@@ -21,7 +21,7 @@ padding: 30px;
   margin-top: 20px;
   padding: 20px;
   width: 250px; 
-  background: #e3e0c8;
+  background: #FFBC9A;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
@@ -42,7 +42,7 @@ padding: 30px;
   margin-top: 20px;
   padding: 20px;
   width: 250px; /* vertical shape */
-  background: #e3e0c8;
+  background: #FFBC9A;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@ padding: 30px;
   margin-top: 20px;
   padding: 20px;
   width: 250px; /* vertical shape */
-  background: #e3e0c8;
+  background: #FFBC9A;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2);
